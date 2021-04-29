@@ -135,6 +135,11 @@ fresh@~0.5.2:
   resolved "https://registry.nlark.com/fresh/download/fresh-0.5.2.tgz?cache=0&sync_timestamp=1618846779488&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffresh%2Fdownload%2Ffresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
+fs@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.npm.taobao.org/fs/download/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
+  integrity sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npm.taobao.org/function-bind/download/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -190,6 +195,11 @@ http-errors@^1.6.3, http-errors@^1.7.3:
     setprototypeof "1.2.0"
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
+
+https@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/https/download/https-1.0.0.tgz#3c37c7ae1a8eeb966904a2ad1e975a194b7ed3a4"
+  integrity sha1-PDfHrhqO65ZpBKKtHpdaGUt+06Q=
 
 iconv-lite@0.4.24:
   version "0.4.24"
@@ -258,6 +268,11 @@ koa-router@^10.0.0:
     koa-compose "^4.1.0"
     methods "^1.1.2"
     path-to-regexp "^6.1.0"
+
+koa-sslify@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npm.taobao.org/koa-sslify/download/koa-sslify-5.0.0.tgz?cache=0&sync_timestamp=1618390330157&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fkoa-sslify%2Fdownload%2Fkoa-sslify-5.0.0.tgz#f3047de9afc92ad960208cea87fcac43795791a7"
+  integrity sha1-8wR96a/JKtlgIIzqh/ysQ3lXkac=
 
 koa2-cors@^2.0.6:
   version "2.0.6"
