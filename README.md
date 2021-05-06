@@ -1,3 +1,8 @@
+# 安装依赖
+yarn 
+
+# 启动服务
 yarn start
 
-http:localhost:3000
+# 访问地址
+http://localhost:3000
