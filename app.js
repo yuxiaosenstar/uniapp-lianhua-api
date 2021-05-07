@@ -9,20 +9,19 @@ const https = require('https')
 
 const app = new Koa()
 
-// log request URL:
+// 接口日志
 app.use(async (ctx, next) => {
   console.log(`Process ${ctx.request.method} ${ctx.request.url}...`)
   await next()
 })
-
+// https请求
+app.use(sslify())
 // 处理跨域
 app.use(cors())
-// parse request body:
+// 解析请求体
 app.use(bodyParser())
-// add controllers:
+// 添加接口
 app.use(controller())
-// https
-app.use(sslify())
 
 // SSL options
 const options = {

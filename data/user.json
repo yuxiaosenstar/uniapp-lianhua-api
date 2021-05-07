@@ -1,0 +1,48 @@
+[
+  {
+    "customer": {
+      "address": {
+        "address": "浜河社区15号",
+        "area": "江干区",
+        "city": "杭州市",
+        "isDefault": true,
+        "province": "浙江省",
+        "street": "浜河街道",
+        "uuid": "27ed1f8023234abcb5fdba1f9602d28d"
+      },
+      "code": "c001",
+      "contact": "张三",
+      "mobile": 1,
+      "name": "海鼎",
+      "uuid": 83411392210000000
+    },
+    "mobile": 1,
+    "password": 1,
+    "name": "张三",
+    "token": "bear 1234567",
+    "uuid": "03411392210000001"
+  },
+  {
+    "customer": {
+      "address": {
+        "address": "浜河社区15号",
+        "area": "江干区",
+        "city": "杭州市",
+        "isDefault": true,
+        "province": "浙江省",
+        "street": "浜河街道",
+        "uuid": "27ed1f8023234abcb5fdba1f9602d28d"
+      },
+      "code": "c001",
+      "contact": "李四",
+      "mobile": 1,
+      "name": "海鼎",
+      "uuid": 83411392210000000
+    },
+    "mobile": 2,
+    "password": 2,
+    "name": "李四",
+    "token": "bear 1234567",
+    "uuid": "03411392210000001"
+  }
+]
